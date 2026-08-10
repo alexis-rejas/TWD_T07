@@ -18,26 +18,74 @@ Visualización 3D interactiva de 50 lenguajes de programación distribuidos en u
 - **Styling**: Tailwind CSS
 - **Server**: Flask (Python)
 
-## Instalación
+## Instalación y Ejecución
 
+### Paso 1: Clonar el repositorio
 ```bash
-# Instalar dependencias Node
+git clone https://github.com/alexis-rejas/TWD_T07.git
+cd TWD_T07
+```
+
+### Paso 2: Instalar dependencias Node
+```bash
 npm install
+```
 
-# Instalar Flask
+### Paso 3: Crear entorno virtual Python
+```bash
+python -m venv venv
+```
+
+**En Windows:**
+```bash
+venv\Scripts\activate
+```
+
+**En macOS/Linux:**
+```bash
+source venv/bin/activate
+```
+
+### Paso 4: Instalar Flask
+```bash
 pip install flask
+```
 
-# Compilar Tailwind CSS
+### Paso 5: Compilar Tailwind CSS (opcional, ya está compilado)
+```bash
 npm run build
 ```
 
-## Uso
-
+### Paso 6: Ejecutar la aplicación
 ```bash
 python app.py
 ```
 
-Accede a `http://localhost:8000`
+Accede a: **`http://localhost:8000`**
+
+### Resumen (copiar y pegar)
+
+**Windows:**
+```bash
+git clone https://github.com/alexis-rejas/TWD_T07.git
+cd TWD_T07
+npm install
+python -m venv venv
+venv\Scripts\activate
+pip install flask
+python app.py
+```
+
+**macOS/Linux:**
+```bash
+git clone https://github.com/alexis-rejas/TWD_T07.git
+cd TWD_T07
+npm install
+python -m venv venv
+source venv/bin/activate
+pip install flask
+python app.py
+```
 
 ## Estructura
 

@@ -1,11 +1,10 @@
 import * as THREE from 'three';
 
 const LANGUAGES = [
-    "JavaScript", "Python", "Java", "C", "C++", "C#", "TypeScript", "PHP", "Ruby", "Swift",
-    "Kotlin", "Go", "Rust", "Dart", "Scala", "Perl", "Haskell", "Lua", "R", "MATLAB",
-    "Julia", "Elixir", "Erlang", "Clojure", "F#", "Objective-C", "Assembly", "COBOL", "Fortran", "Ada",
-    "Groovy", "Shell", "PowerShell", "SQL", "HTML", "CSS", "Visual Basic", "Delphi", "Pascal", "Scheme",
-    "Prolog", "Racket", "OCaml", "Crystal", "Nim", "Zig", "Solidity", "VHDL", "Verilog", "Smalltalk"
+    "JavaScript", "Python", "Java", "Css", "Jaspert Reports", "Intellij", "TypeScript", "PHP", "Readme", "Gitignore",
+    "AWS ", "Worbench", "Aurora", "Mysql", "JDK", "Maven", "Packaje.json", "EC2", "git", "git hub",
+    "git bash", "main", "develop", "visual", "zoom", "Docker", "Assembly", "COBOL", "Fortran", "Ada",
+    "Tailwind", "CMD", "PowerShell", "SQL", "HTML", "CSS", "documentos", "meet", "slide", "Apps Script",
 ];
 
 const scene = new THREE.Scene();

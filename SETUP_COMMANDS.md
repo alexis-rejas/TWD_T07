@@ -18,11 +18,11 @@ npm install three
 ```
 
 **Lo que instala:**
-- `tailwindcss` - Framework CSS
+-s)
+ `tailwindcss` - Framework CSS
 - `postcss` - Procesador CSS
 - `autoprefixer` - Prefijos automáticos para navegadores
-- `three` - Librería 3D (Three.js)
-
+- `three` - Librería 3D (Three.j
 ---
 
 ## 3. Inicializar configuración de Tailwind

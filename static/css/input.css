@@ -1,20 +1,30 @@
+/* Directivas de Tailwind CSS: Importan estilos base, componentes y utilidades */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Capa base: Estilos generales del documento */
 @layer base {
+  /* Resetear márgenes y rellenos, hacer que ocupen pantalla completa */
   html, body {
     @apply m-0 p-0 w-full h-full;
   }
 
+  /* Fondo negro para toda la página */
   body {
     @apply bg-black overflow-hidden;
   }
 }
 
+/* Capa de componentes: Estilos del elemento #info (título) */
 @layer components {
   #info {
-    @apply fixed top-2 left-1/2 -translate-x-1/2 text-gray-500 text-sm uppercase tracking-widest pointer-events-none z-8;
+    /* Posicionamiento fijo en el centro superior */
+    @apply fixed top-2 left-1/2 -translate-x-1/2 
+    /* Tipografía: gris, pequeño, mayúsculas con espaciado */
+    text-gray-500 text-sm uppercase tracking-widest 
+    /* No captura eventos del mouse, z-index alto */
+    pointer-events-none z-8;
   }
 }
 

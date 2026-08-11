@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- Definir codificación UTF-8 y título de la página -->
     <meta charset="UTF-8">
     <title>Esfera de Lenguajes de Programación</title>
     
-    <!-- TAILWIND LOCAL -->
+    <!-- Cargar CSS compilado de Tailwind (fondo negro, estilos base) -->
     <link rel="stylesheet" href="static/css/output.css">
     
 </head>
 <body>
+    <!-- Título principal posicionado en el centro superior -->
     <div id="info">ESFERA DE LENGUAJES — GIRANDO</div>
+    
+    <!-- Mapa de importación para módulos ES6 (Three.js desde node_modules) -->
     <script type="importmap">
     {
         "imports": {
@@ -18,6 +22,8 @@
         }
     }
     </script>
+    
+    <!-- Script principal con módulo ES6 para la lógica de la esfera 3D -->
     <script type="module" src="static/js/script.js"></script>
 </body>
 </html>
